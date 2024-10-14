@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .duration-high {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.zoomInOut {
+  animation: zoomInOut 20s ease-in-out infinite;
+}
+
+/*@keyframes spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(30deg);*/
+/*  }*/
+/*}*/
+/*.spin {*/
+/*  animation: spin 40s linear infinite;*/
+/*}*/
