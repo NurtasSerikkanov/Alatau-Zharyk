@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 # Alatau-Zharyk
 # Alatau-Zharyk
 # Alatau-Zharyk
+# Alatau-Zharyk
